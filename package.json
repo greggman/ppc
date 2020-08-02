@@ -1,0 +1,28 @@
+{
+  "name": "ppc",
+  "version": "0.0.1",
+  "description": "ppc",
+  "main": "foo.js",
+  "scripts": {
+    "eslint": "eslint \"**/*.js\"",
+    "pre-push": "npm run eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greggman/ppc.git"
+  },
+  "keywords": [],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/ppc/issues"
+  },
+  "homepage": "https://github.com/greggman/ppc#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-optional-comma-spacing": "0.0.4",
+    "eslint-plugin-require-trailing-comma": "0.0.1"
+  }
+}
